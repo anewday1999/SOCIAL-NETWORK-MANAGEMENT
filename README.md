@@ -1,13 +1,13 @@
 # SOCIAL-NETWORK-MANAGEMENT.
 ## I.	Youtube API:
 ### 1.	Credentials:
--	API key: For public request
--	Oauth: For private request
-Public, private phụ thuộc vào loại cần truy xuất. (Ví dụ, lấy danh sách các video của một kênh, chỉ cần sử dụng apikey. Để lấy danh sách subcribers thì phải sử dụng Oauth2).
-API key và Oauth được tạo trên google console.
-### 2.	Các truy xuất có thể thực hiện:
+-	API key: For public request. 
+-	Oauth: For private request. 
+Public, private phụ thuộc vào loại cần truy xuất. (Ví dụ, lấy danh sách các video của một kênh, chỉ cần sử dụng apikey. Để lấy danh sách subcribers thì phải sử dụng Oauth2).  
+API key và Oauth được tạo trên google console.  
+### 2.	Các truy xuất có thể thực hiện:  
 -	Channels:
-+ Số lượng video
+-- Số lượng video
 + Số lượng subscribers
 + … (Các thông tin public khác có thể nhìn thấy đều có thể truy xuất).
 Ứng dụng: Theo dõi trạng thái hiện tại của kênh.
