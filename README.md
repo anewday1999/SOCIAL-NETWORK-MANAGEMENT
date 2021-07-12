@@ -12,10 +12,10 @@ API key và Oauth được tạo trên google console.
 +… (Các thông tin public khác có thể nhìn thấy đều có thể truy xuất).  
 > Ứng dụng: Theo dõi trạng thái hiện tại của kênh.  
   
--	Comments:  
-+Trả về danh sách các bình luận.
-+Trả lời bình luận cho một comment.
-+Đánh dấu spam.
+-	Comments:   
++Trả về danh sách các bình luận.  
++Trả lời bình luận cho một comment.  
++Đánh dấu spam.  
 > Ứng dụng: Direct marketing.
 
 -	Membership:  
@@ -23,8 +23,8 @@ Youtube hiện tại có chức năng người ủng hộ.
 +Xem danh sách các memberships.  
 
 -	Membershipslevel:
-Người ủng hộ sẽ có các level khác nhau, tuỳ số tiền mà họ đóng góp.
-+Xem danh sách memberships và level.
+Người ủng hộ sẽ có các level khác nhau, tuỳ số tiền mà họ đóng góp.  
++Xem danh sách memberships và level.  
 
 -	Playlists:
 
