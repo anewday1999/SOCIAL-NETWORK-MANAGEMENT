@@ -3,7 +3,7 @@
 ### 1.	Credentials:
 -	API key: For public request. 
 -	Oauth: For private request.  
-Public, private phụ thuộc vào loại thông t cần truy xuất. (Ví dụ, lấy danh sách các video của một kênh, chỉ cần sử dụng apikey. Để lấy danh sách subcribers thì phải sử dụng Oauth2).  
+Public, private phụ thuộc vào loại thông tin cần truy xuất. (Ví dụ, lấy danh sách các video của một kênh, chỉ cần sử dụng apikey. Để lấy danh sách subcribers thì phải sử dụng Oauth2).  
 API key và Oauth được tạo trên google console.  
 ### 2.	Các truy xuất có thể thực hiện:  
 -	Channels:  
