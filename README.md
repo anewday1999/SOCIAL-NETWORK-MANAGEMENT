@@ -33,7 +33,7 @@ Người ủng hộ sẽ có các level khác nhau, tuỳ số tiền mà họ �
 Tìm kiếm các nội dung theo: location(location radius), videoCaption,  videoType,…
 
 -	Subscriptions:
-+Xem danh sách những người theo dõi.
++Xem danh sách những người theo dõi.  
 +Xem danh sách các kênh đã theo giỏi của người dùng chỉ định
 >Ứng dụng: Direct marketing, ví dụ lấy danh sách của người đã theo dõi kênh của mình và các kênh họ đang theo dõi, thực hiện quảng cáo kênh trên các kênh đó để tăng views và subscribers.
 
