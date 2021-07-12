@@ -4,7 +4,8 @@
 -	API key: For public request. 
 -	Oauth: For private request.  
 Public, private phụ thuộc vào loại thông tin cần truy xuất. (Ví dụ, lấy danh sách các video của một kênh, chỉ cần sử dụng apikey. Để lấy danh sách subcribers thì phải sử dụng Oauth2).  
-API key và Oauth được tạo trên google console.  
+API key và Oauth được tạo trên google console -> APIs and services.  
+![image](files/Users/jzhang/Desktop/Isolated.png)
 ### 2.	Các truy xuất có thể thực hiện:  
 -	Channels:  
 +Số lượng video  
