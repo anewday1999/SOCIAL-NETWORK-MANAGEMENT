@@ -37,6 +37,7 @@ Tìm kiếm các nội dung theo: location(location radius), videoCaption,  vide
 >Ứng dụng: Direct marketing, ví dụ lấy danh sách của người đã theo dõi kênh của mình và các kênh họ đang theo dõi, thực hiện quảng cáo kênh trên các kênh đó để tăng view và subscribers.
 
 -	Likes: Không thể truy xuất danh sách người đã thích vì chính sách quyền riêng tư của youtube.
+### 3. Thực hiện:
 - Chi tiết các truy vấn và code: https://developers.google.com/youtube/v3/docs/subscriptions/list.  
 - Demo: Python code.  
 - [https://github.com/anewday1999/SOCIAL-NETWORK-MANAGEMENT./blob/main/README.md][PlGh]  
