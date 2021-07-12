@@ -41,6 +41,7 @@ Tìm kiếm các nội dung theo: location(location radius), videoCaption,  vide
 ### 3. Thực hiện:
 - Chi tiết các truy vấn và code: https://developers.google.com/youtube/v3/docs/subscriptions/list.  
 - Demo: Python code.  
+  
 [1. Ví dụ về nhận danh sách subcribers với Oauth2](https://github.com/anewday1999/SOCIAL-NETWORK-MANAGEMENT./blob/main/oauth_example.py)  
 Result: ![image](https://github.com/anewday1999/SOCIAL-NETWORK-MANAGEMENT./blob/main/Screenshot%202021-07-12%20at%2018.04.14.png). 
 > Yêu cầu client_secrets_file, được tạo và tải về từ apis and services (google cloud platform).  
