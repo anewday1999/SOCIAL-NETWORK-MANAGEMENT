@@ -7,9 +7,9 @@ Public, private phụ thuộc vào loại cần truy xuất. (Ví dụ, lấy da
 API key và Oauth được tạo trên google console.  
 ### 2.	Các truy xuất có thể thực hiện:  
 -	Channels:  
-+ Số lượng video  
-+ Số lượng subscribers  
-+ … (Các thông tin public khác có thể nhìn thấy đều có thể truy xuất).  
++Số lượng video  
++Số lượng subscribers  
++… (Các thông tin public khác có thể nhìn thấy đều có thể truy xuất).  
 Ứng dụng: Theo dõi trạng thái hiện tại của kênh.  
   
 -	Comments:  
