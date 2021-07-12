@@ -1,11 +1,10 @@
 from googleapiclient.discovery import build
-import pprint
+import pprint, json
 api_key = 'AIzaSyCbV5smoNcEJcmRdkPXE31UskmeIBTMEk8'
 service = build('youtube', 'v3', developerKey=api_key)
-request = service.subscriptions().list(
-    part="subscriberSnippet",
-
-    mySubscribers = True
+request = service.channels().list(
+    part="snippet",
+    id = 'UCpLo996bL7AdzNeRlY9DZEA'
 )
 respone = request.execute()
 pprint.pprint(respone)
