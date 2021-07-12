@@ -42,6 +42,7 @@ Tìm kiếm các nội dung theo: location(location radius), videoCaption,  vide
 - Chi tiết các truy vấn và code: https://developers.google.com/youtube/v3/docs/subscriptions/list.  
 - Demo: Python code.  
 - [Ví dụ về nhận danh sách subcribers với Oauth2](https://github.com/anewday1999/SOCIAL-NETWORK-MANAGEMENT./blob/main/oauth_example.py) 
+- [Ví dụ về nhận thông tin kênh với api_key](https://github.com/anewday1999/SOCIAL-NETWORK-MANAGEMENT./blob/main/oauth_example.py) 
 
 
 
