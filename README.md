@@ -39,8 +39,7 @@ Tìm kiếm các nội dung theo: location(location radius), videoCaption,  vide
 -	Likes: Không thể truy xuất danh sách người đã thích vì chính sách quyền riêng tư của youtube.
 - Chi tiết các truy vấn và code: https://developers.google.com/youtube/v3/docs/subscriptions/list.  
 - Demo: Python code.  
-- [plugins/github/README.md][PlGh]  
-- [plugins/github/README.md][PlGh]  
+- [https://github.com/anewday1999/SOCIAL-NETWORK-MANAGEMENT./blob/main/README.md][PlGh]  
 
 
 
