@@ -13,9 +13,9 @@ API key và Oauth được tạo trên google console.
 > Ứng dụng: Theo dõi trạng thái hiện tại của kênh.  
   
 -	Comments:  
-+ Trả về danh sách các bình luận.
-+ Trả lời bình luận cho một comment.
-+ Đánh dấu spam.
++Trả về danh sách các bình luận.
++Trả lời bình luận cho một comment.
++Đánh dấu spam.
 > Ứng dụng: Direct marketing.
 
 -	Membership:  
