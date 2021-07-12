@@ -41,7 +41,7 @@ Tìm kiếm các nội dung theo: location(location radius), videoCaption,  vide
 ### 3. Thực hiện:
 - Chi tiết các truy vấn và code: https://developers.google.com/youtube/v3/docs/subscriptions/list.  
 - Demo: Python code.  
-- [https://github.com/anewday1999/SOCIAL-NETWORK-MANAGEMENT./blob/main/README.md][PlGh]  
+- [https://github.com/anewday1999/SOCIAL-NETWORK-MANAGEMENT./blob/main/oauth_example.py][PlGh]  
 
 
 
