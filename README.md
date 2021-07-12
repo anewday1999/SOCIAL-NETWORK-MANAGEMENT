@@ -44,6 +44,7 @@ Tìm kiếm các nội dung theo: location(location radius), videoCaption,  vide
 [1. Ví dụ về nhận danh sách subcribers với Oauth2](https://github.com/anewday1999/SOCIAL-NETWORK-MANAGEMENT./blob/main/oauth_example.py)  
 Result: ![image](https://github.com/anewday1999/SOCIAL-NETWORK-MANAGEMENT./blob/main/Screenshot%202021-07-12%20at%2018.04.14.png). 
 > Yêu cầu client_secrets_file, được tạo và tải về từ apis and services (google cloud platform).  
+  
 [2. Ví dụ về nhận thông tin kênh với api_key](https://github.com/anewday1999/SOCIAL-NETWORK-MANAGEMENT./blob/main/apikey.py)  
 Result: ![image](https://github.com/anewday1999/SOCIAL-NETWORK-MANAGEMENT./blob/main/Screenshot%202021-07-12%20at%2018.05.26.png).  
 > Yêu cầu api_key, được tạo từ apis and services (google cloud platform).  
