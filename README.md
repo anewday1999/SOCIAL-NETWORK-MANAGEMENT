@@ -6,13 +6,13 @@
 Public, private phụ thuộc vào loại cần truy xuất. (Ví dụ, lấy danh sách các video của một kênh, chỉ cần sử dụng apikey. Để lấy danh sách subcribers thì phải sử dụng Oauth2).  
 API key và Oauth được tạo trên google console.  
 ### 2.	Các truy xuất có thể thực hiện:  
--	Channels:
--- Số lượng video
-+ Số lượng subscribers
-+ … (Các thông tin public khác có thể nhìn thấy đều có thể truy xuất).
-Ứng dụng: Theo dõi trạng thái hiện tại của kênh.
-
--	Comments: 
+-	Channels:  
++ Số lượng video  
++ Số lượng subscribers  
++ … (Các thông tin public khác có thể nhìn thấy đều có thể truy xuất).  
+Ứng dụng: Theo dõi trạng thái hiện tại của kênh.  
+  
+-	Comments:  
 + Trả về danh sách các bình luận.
 + Trả lời bình luận cho một comment.
 + Đánh dấu spam.
