@@ -10,21 +10,21 @@ API key và Oauth được tạo trên google console.
 +Số lượng video  
 +Số lượng subscribers  
 +… (Các thông tin public khác có thể nhìn thấy đều có thể truy xuất).  
-Ứng dụng: Theo dõi trạng thái hiện tại của kênh.  
+> Ứng dụng: Theo dõi trạng thái hiện tại của kênh.  
   
 -	Comments:  
 + Trả về danh sách các bình luận.
 + Trả lời bình luận cho một comment.
 + Đánh dấu spam.
-Ứng dụng: Direct marketing.
+> Ứng dụng: Direct marketing.
 
--	Membership:
-Youtube hiện tại có chức năng người ủng hộ.
-+ Xem danh sách các memberships.
+-	Membership:  
+Youtube hiện tại có chức năng người ủng hộ.  
++Xem danh sách các memberships.  
 
 -	Membershipslevel:
 Người ủng hộ sẽ có các level khác nhau, tuỳ số tiền mà họ đóng góp.
-+ Xem danh sách memberships và level.
++Xem danh sách memberships và level.
 
 -	Playlists:
 
@@ -32,9 +32,9 @@ Người ủng hộ sẽ có các level khác nhau, tuỳ số tiền mà họ �
 Tìm kiếm các nội dung theo: location(location radius), videoCaption,  videoType,…
 
 -	Subscriptions:
-+ Xem danh sách những người theo dõi.
-+ Xem danh sách các kênh đã theo giỏi của người dùng chỉ định
-Ứng dụng: Direct marketing, ví dụ lấy danh sách của người đã theo dõi kênh của mình và các kênh họ đang theo dõi, thực hiện quảng cáo kênh trên các kênh đó để tăng view và subscribers.
++Xem danh sách những người theo dõi.
++Xem danh sách các kênh đã theo giỏi của người dùng chỉ định
+>Ứng dụng: Direct marketing, ví dụ lấy danh sách của người đã theo dõi kênh của mình và các kênh họ đang theo dõi, thực hiện quảng cáo kênh trên các kênh đó để tăng view và subscribers.
 
 -	Likes: Không thể truy xuất danh sách người đã thích vì chính sách quyền riêng tư của youtube.
 
