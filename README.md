@@ -50,7 +50,7 @@ Result: ![image](https://github.com/anewday1999/SOCIAL-NETWORK-MANAGEMENT./blob/
 Result: ![image](https://github.com/anewday1999/SOCIAL-NETWORK-MANAGEMENT./blob/main/Screenshot%202021-07-12%20at%2018.05.26.png).  
 > Yêu cầu api_key, được tạo từ apis and services (google cloud platform).  
   
-## I.	Facebook API:
+## II.	Facebook API:
 ### 1. Credentials:
 - Create an application : https://developers.facebook.com/.  
 - Use appid & appsecret to request an access token.  
@@ -60,5 +60,5 @@ Result: ![image](https://github.com/anewday1999/SOCIAL-NETWORK-MANAGEMENT./blob/
 - Danh sách các truy vấn có thể thực hiện: https://developers.facebook.com/docs/graph-api/reference/user/  
 - Không có sẵn thư viện.  
 ### 3.  Thực hiện:
-[Simple class request](https://github.com/anewday1999/SOCIAL-NETWORK-MANAGEMENT./blob/main/oauth_example.py)  
+[Simple class request](https://github.com/anewday1999/SOCIAL-NETWORK-MANAGEMENT/blob/main/fb_api.py)  
 
