@@ -5,7 +5,7 @@
 -	Oauth: For private request.  
 Public, private phụ thuộc vào loại thông tin cần truy xuất. (Ví dụ, lấy danh sách các video của một kênh, chỉ cần sử dụng apikey. Để lấy danh sách subcribers thì phải sử dụng Oauth2).  
 API key và Oauth được tạo trên google console -> APIs and services.  
-![image](https://github.com/anewday1999/SOCIAL-NETWORK-MANAGEMENT./blob/main/Screenshot%202021-07-12%20at%2017.49.04.png)
+![image](https://github.com/anewday1999/SOCIAL-NETWORK-MANAGEMENT./blob/main/youtubeAPI/Screenshot%202021-07-12%20at%2017.49.04.png)
 ### 2.	Các truy xuất có thể thực hiện:  
 -	Channels:  
 +Số lượng video  
@@ -42,12 +42,12 @@ Tìm kiếm các nội dung theo: location(location radius), videoCaption,  vide
 - Chi tiết các truy vấn và code: https://developers.google.com/youtube/v3/docs/subscriptions/list.  
 - Demo: Python code.  
   
-[1. Ví dụ về nhận danh sách subcribers với Oauth2](https://github.com/anewday1999/SOCIAL-NETWORK-MANAGEMENT./blob/main/oauth_example.py)  
-Result: ![image](https://github.com/anewday1999/SOCIAL-NETWORK-MANAGEMENT./blob/main/Screenshot%202021-07-12%20at%2018.04.14.png). 
+[1. Ví dụ về nhận danh sách subcribers với Oauth2](https://github.com/anewday1999/SOCIAL-NETWORK-MANAGEMENT./blob/main/youtubeAPI/oauth_example.py)  
+Result: ![image](https://github.com/anewday1999/SOCIAL-NETWORK-MANAGEMENT./blob/main/youtubeAPI/Screenshot%202021-07-12%20at%2018.04.14.png). 
 > Yêu cầu client_secrets_file, được tạo và tải về từ apis and services (google cloud platform).  
   
-[2. Ví dụ về nhận thông tin kênh với api_key](https://github.com/anewday1999/SOCIAL-NETWORK-MANAGEMENT./blob/main/apikey.py)  
-Result: ![image](https://github.com/anewday1999/SOCIAL-NETWORK-MANAGEMENT./blob/main/Screenshot%202021-07-12%20at%2018.05.26.png).  
+[2. Ví dụ về nhận thông tin kênh với api_key](https://github.com/anewday1999/SOCIAL-NETWORK-MANAGEMENT./blob/main/youtubeAPI/apikey.py)  
+Result: ![image](https://github.com/anewday1999/SOCIAL-NETWORK-MANAGEMENT./blob/main/youtubeAPI/Screenshot%202021-07-12%20at%2018.05.26.png).  
 > Yêu cầu api_key, được tạo từ apis and services (google cloud platform).  
   
 ## II.	Facebook API:
@@ -60,5 +60,5 @@ Result: ![image](https://github.com/anewday1999/SOCIAL-NETWORK-MANAGEMENT./blob/
 - Danh sách các truy vấn có thể thực hiện: https://developers.facebook.com/docs/graph-api/reference/user/  
 - Không có sẵn thư viện.  
 ### 3.  Thực hiện:
-[Simple class request](https://github.com/anewday1999/SOCIAL-NETWORK-MANAGEMENT/blob/main/fb_api.py)  
+[Simple class request](https://github.com/anewday1999/SOCIAL-NETWORK-MANAGEMENT/blob/main/facebookAPI/fb_api.py)  
 
