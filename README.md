@@ -49,6 +49,16 @@ Result: ![image](https://github.com/anewday1999/SOCIAL-NETWORK-MANAGEMENT./blob/
 [2. Ví dụ về nhận thông tin kênh với api_key](https://github.com/anewday1999/SOCIAL-NETWORK-MANAGEMENT./blob/main/apikey.py)  
 Result: ![image](https://github.com/anewday1999/SOCIAL-NETWORK-MANAGEMENT./blob/main/Screenshot%202021-07-12%20at%2018.05.26.png).  
 > Yêu cầu api_key, được tạo từ apis and services (google cloud platform).  
-
-
+  
+## I.	Facebook API:  
+### 1. Credentials:  
+- Create an application : https://developers.facebook.com/.  
+- Use appid & appsecret to request an access token.  
+### 2. Truy xuất:
+- Không thể truy xuất số người theo dõi hoặc like page dưới bất kì hình thức nào.  
+- Test truy vấn: https://developers.facebook.com/tools/explorer/?method=GET&path=107310934648059%2Fsubscribers&version=v11.0.  
+- Danh sách các truy vấn có thể thực hiện: https://developers.facebook.com/docs/graph-api/reference/user/  
+- Không có sẵn thư viện.  
+### 3.  Thực hiện:
+[Simple class request](https://github.com/anewday1999/SOCIAL-NETWORK-MANAGEMENT./blob/main/oauth_example.py)  
 
