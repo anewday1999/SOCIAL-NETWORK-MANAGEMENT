@@ -54,6 +54,7 @@ Result: ![image](https://github.com/anewday1999/SOCIAL-NETWORK-MANAGEMENT./blob/
 ### 1. Credentials:
 - Create an application : https://developers.facebook.com/.  
 - Use appid & appsecret to request an access token.  
+- Các bước access: Tạo app, sử dụng id và secret để nhận access token user, sử dụng access token user và id page để nhận access token page, nhận id page, send request.  
 ### 2. Truy xuất:
 - Không thể truy xuất số người theo dõi hoặc like page dưới bất kì hình thức nào.  
 - Test truy vấn: https://developers.facebook.com/tools/explorer/?method=GET&path=107310934648059%2Fsubscribers&version=v11.0.  
