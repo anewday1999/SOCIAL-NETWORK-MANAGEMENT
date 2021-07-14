@@ -16,8 +16,7 @@ class facebookAPI:
     def get_user_token(self, redirect ,scope):
         url = 'https://www.facebook.com/v11.0/dialog/oauth?response_type=token&client_id=' + self.app_id + '&redirect_uri=' + redirect + '&auth_type=rerequest&scope=' + scope
         
-        print("Click this url to get code: ")
-        print(url)
+        return url
 
     #Dat user token
     def set_user_token(self, token):
@@ -85,7 +84,7 @@ if __name__ == '__main__':
 
     fa = facebookAPI(app_id = app_id, app_secret = app_id_secret)
     #Lay user token xu ly sau voi server, tam thoi su dung api-university de get token
-    #fa. get_user_token(scope='pages_show_list%2Cpages_read_engagement%2Cpublic_profile%2Cread_insights%2Cpages_read_user_content%2Cpages_messaging%2Cpages_messaging_phone_number%2Cpages_messaging_subscriptions%2Cpages_manage_posts%2Cpages_manage_instant_articles%2Cpages_manage_metadata%2Cpages_manage_engagement', redirect='https%3A%2F%2Fapi-university.com%2F')
+    fa.get_user_token(scope='pages_show_list%2Cpages_read_engagement%2Cpublic_profile%2Cread_insights%2Cpages_read_user_content%2Cpages_messaging%2Cpages_messaging_phone_number%2Cpages_messaging_subscriptions%2Cpages_manage_posts%2Cpages_manage_instant_articles%2Cpages_manage_metadata%2Cpages_manage_engagement', redirect='https%3A%2F%2Fapi-university.com%2F')
 
     #Sau khi lay tokeno buoc tren, set user token
     fa.set_user_token('')
