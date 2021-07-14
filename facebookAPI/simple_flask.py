@@ -14,12 +14,7 @@ app.config["DEBUG"] = True
 
 @app.route('/', methods=['GET'])
 def home():
-    t = [{'1 Create api: ':'http://192.168.1.176:5000/api/v1/createAPI?app_id={app_id}&app_secret={app_secret}',
-        '2 Get user token: ':'http://192.168.1.176:5000/api/v1/get_user_token?scope={scope}&redirect={redirect}',
-        '3 Set user token: ': 'http://192.168.1.176:5000/api/v1/set_user_token',
-        '4 Set page token: ': 'http://192.168.1.176:5000/api/v1/set_page_token?pageID={pageID}',
-        '5 Get page info: ': 'http://192.168.1.176:5000/api/v1/get_page_info',
-        '6 Get posts: ': 'http://192.168.1.176:5000/api/v1/get_posts?objectID=107310934648059'}, {'scope:' : 'pages_show_list%2Cpages_read_engagement%2Cpublic_profile%2Cread_insights%2Cpages_read_user_content%2Cpages_messaging%2Cpages_messaging_phone_number%2Cpages_messaging_subscriptions%2Cpages_manage_posts%2Cpages_manage_instant_articles%2Cpages_manage_metadata%2Cpages_manage_engagement', 'redirect: ': 'https%3A%2F%2Fapi-university.com%2F'}]
+    t = {'insert' : 'from local'}
     return jsonify(t)
 
 @app.route('/api/v1/createAPI', methods=['GET'])
