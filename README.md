@@ -61,4 +61,6 @@ Result: ![image](https://github.com/anewday1999/SOCIAL-NETWORK-MANAGEMENT./blob/
 - Không có sẵn thư viện.  
 ### 3.  Thực hiện:
 [Simple class request](https://github.com/anewday1999/SOCIAL-NETWORK-MANAGEMENT/blob/main/facebookAPI/fb_api.py)  
+### 4. Vấn đề:
+Để nhận access token cho user: 1. người dùng tự lấy, 2. tạo server api để nhận tự động.  
 
